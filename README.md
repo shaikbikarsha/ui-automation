@@ -39,7 +39,7 @@ videoFolder=./target/Videos                     # Default option is ./target/Vid
 - InfluxDB version **influxdb-1.8.10-1**
 - Grafana version **grafana-8.2.3**
 
-***Note:-*** By default the execution details do store at ***192.168.168.57***. Can access the live reports [here](http://localhost:3000/d/M2A3v37Gz/automation-execution-stats?orgId=1&refresh=10s). `Username: admin, Password: Admin` Please do skip if you are getting any password reset screen.
+***Note:-*** By default the execution details do store at ***localhost***. Can access the live reports [here](http://localhost:3000/d/M2A3v37Gz/automation-execution-stats?orgId=1&refresh=10s). `Username: admin, Password: Admin` Please do skip if you are getting any password reset screen.
 
 ### Visual reports
 - Allure
