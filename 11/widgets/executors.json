@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://shaikbikarsha.github.io/ui-automation",
+  "buildOrder" : 11,
+  "buildName" : "GitHub Actions Run #1631686032",
+  "buildUrl" : "https://github.com/shaikbikarsha/ui-automation/actions/runs/1631686032",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://shaikbikarsha.github.io/ui-automation/11/"
+} ]
