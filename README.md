@@ -1,4 +1,4 @@
-# ui-automation [![ui-automation](https://github.com/shaikbikarsha/ui-automation/actions/workflows/maven.yml/badge.svg)](https://github.com/shaikbikarsha/ui-automation/actions) [![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-orange.svg)](https://sonarcloud.io/summary/new_code?id=shaikbikarsha_ui-automation)
+# ui-automation [![ui-automation](https://github.com/shaikbikarsha/ui-automation/actions/workflows/build.yml/badge.svg)](https://github.com/shaikbikarsha/ui-automation/actions) [![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-orange.svg)](https://sonarcloud.io/summary/new_code?id=shaikbikarsha_ui-automation)
 
 **Poniters used this repo**
 - Selenium WebDriver 4.*.*
