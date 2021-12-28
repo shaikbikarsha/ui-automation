@@ -16,40 +16,6 @@ jobs:
         java-version: '16'
         distribution: 'adopt'
         cache: maven
-    - name:  Install Google Chrome
-      run:   |
-              chmod +x ./src/main/resources/Scripts/InstallChrome.sh
-                          ./src/main/resources/Scripts/InstallChrome.sh
-    - name: Build with Maven
-      run: mvn install test -Dbrowser="chrome_headless" -DtestngFile="testng.xml" -DtestngGroups="smoke" site:site --file pom.xml
-    - name: Test Reporter
-      uses: dorny/test-reporter@v1.4.3
-      with:
-        name: Run Tests
-        path: "**/surefire-reports/TEST-*.xml"
-        reporter: java-junit    
-    - name: Get Allure history
-      uses: actions/checkout@v2
-      if: always()
-      continue-on-error: true
-      with:
-        ref: gh-pages
-        path: gh-pages
-    - name: Allure Report action from marketplace
-      uses: simple-elf/allure-report-action@master
-      if: always()
-      #id: allure-report
-      with:
-        allure_results: target/allure-results       
-        allure_history: target/allure-report/history
-        keep_reports: 30
-    - name: Deploy report to Github Pages
-      if: always()
-      uses: peaceiris/actions-gh-pages@v2
-      env:
-        PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        PUBLISH_BRANCH: gh-pages
-        PUBLISH_DIR: target/allure-report/history
     - name: Cache SonarCloud packages
       uses: actions/cache@v1
       with:
