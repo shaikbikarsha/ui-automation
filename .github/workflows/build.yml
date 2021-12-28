@@ -37,8 +37,8 @@ jobs:
       run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=shaikbikarsha_ui-automation
     - name:  Install Google Chrome
       run:   |
-            chmod +x ./src/main/resources/Scripts/InstallChrome.sh
-                        ./src/main/resources/Scripts/InstallChrome.sh
+            chmod +x ./src/main/resources/scripts/InstallChrome.sh
+                        ./src/main/resources/scripts/InstallChrome.sh
     - name: Restore Maven cache
       uses: skjolber/maven-cache-github-action@v1
       with:
