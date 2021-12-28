@@ -1,9 +1,10 @@
-name: ui-automation
+name: Build
 on:
   push:
-    branches: [ master ]
+    branches:
+      - master
   pull_request:
-    branches: [ master ]
+    types: [opened, synchronize, reopened]
 jobs:
   build:
     runs-on: self-hosted
