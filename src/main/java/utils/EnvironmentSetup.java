@@ -2,8 +2,6 @@ package utils;
 
 import controllers.BaseController;
 import org.testng.annotations.Test;
-
-
 import java.io.File;
 import java.io.FileOutputStream;
 import java.net.InetAddress;
