@@ -11,6 +11,18 @@
     "total" : 4
   }
 }, {
+  "buildOrder" : 21,
+  "reportUrl" : "https://shaikbikarsha.github.io/ui-automation/21/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "failed" : 0,
+    "broken" : 3,
+    "skipped" : 1,
+    "passed" : 0,
+    "unknown" : 0,
+    "total" : 4
+  }
+}, {
   "buildOrder" : 20,
   "reportUrl" : "https://shaikbikarsha.github.io/ui-automation/20/",
   "reportName" : "Allure Report with history",

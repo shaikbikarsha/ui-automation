@@ -1,41 +1,41 @@
 [ {
-  "uid" : "83dad1a023077dfb",
+  "uid" : "ac99c706867ece60",
   "name" : "afterMethod",
   "time" : {
-    "start" : 1641504997008,
-    "stop" : 1641504997008,
-    "duration" : 0
+    "start" : 1641505382821,
+    "stop" : 1641505382822,
+    "duration" : 1
   },
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "c096b08deaa14398",
-  "name" : "beforeMethod",
-  "time" : {
-    "start" : 1641504994873,
-    "stop" : 1641504994879,
-    "duration" : 6
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "22f6c1ce37cabc8b",
+  "uid" : "f7539932b63dd3bb",
   "name" : "Validate the behaviour of different combinations of text box details",
   "time" : {
-    "start" : 1641504994988,
-    "stop" : 1641504994998,
-    "duration" : 10
+    "start" : 1641505450036,
+    "stop" : 1641505456768,
+    "duration" : 6732
   },
-  "status" : "skipped",
+  "status" : "broken",
   "severity" : "critical"
 }, {
-  "uid" : "401114863d19792c",
-  "name" : "Validate the behaviour of different combinations of text box details",
+  "uid" : "db977a960ec3fa23",
+  "name" : "beforeMethod",
   "time" : {
-    "start" : 1641505078822,
-    "stop" : 1641505086831,
-    "duration" : 8009
+    "start" : 1641505380725,
+    "stop" : 1641505380728,
+    "duration" : 3
   },
   "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "3e0abbe337dbaec3",
+  "name" : "Validate the behaviour of different combinations of text box details",
+  "time" : {
+    "start" : 1641505380796,
+    "stop" : 1641505380812,
+    "duration" : 16
+  },
+  "status" : "skipped",
   "severity" : "critical"
 } ]

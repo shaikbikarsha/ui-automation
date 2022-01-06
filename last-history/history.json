@@ -2,13 +2,23 @@
   "70538a2bc10be2e9b8a6c8628b27a3d3" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 3,
+      "broken" : 4,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 3
+      "total" : 4
     },
     "items" : [ {
+      "uid" : "db977a960ec3fa23",
+      "reportUrl" : "https://shaikbikarsha.github.io/ui-automation/21//#testresult/db977a960ec3fa23",
+      "status" : "broken",
+      "statusDetails" : "Could not start a new session. Response code 500. Message: unknown error: Chrome failed to start: crashed.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '4.1.1', revision: 'e8fcc2cecf'\nSystem info: host: 'fv-az182-150', ip: '10.1.1.117', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1022-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--start-maximized], extensions: []}}], desiredCapabilities=Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--start-maximized], extensions: []}}}]",
+      "time" : {
+        "start" : 1641505380725,
+        "stop" : 1641505380728,
+        "duration" : 3
+      }
+    }, {
       "uid" : "c096b08deaa14398",
       "reportUrl" : "https://shaikbikarsha.github.io/ui-automation/21//#testresult/c096b08deaa14398",
       "status" : "broken",
@@ -43,13 +53,23 @@
   "a33ea3084fd68fcf4d06849fc9b074c5" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 3,
+      "broken" : 4,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 3
+      "total" : 4
     },
     "items" : [ {
+      "uid" : "ac99c706867ece60",
+      "reportUrl" : "https://shaikbikarsha.github.io/ui-automation/21//#testresult/ac99c706867ece60",
+      "status" : "broken",
+      "statusDetails" : "Cannot invoke \"org.openqa.selenium.WebDriver.quit()\" because the return value of \"controllers.DriverInitializer.getWebDriver()\" is null",
+      "time" : {
+        "start" : 1641505382821,
+        "stop" : 1641505382822,
+        "duration" : 1
+      }
+    }, {
       "uid" : "83dad1a023077dfb",
       "reportUrl" : "https://shaikbikarsha.github.io/ui-automation/21//#testresult/83dad1a023077dfb",
       "status" : "broken",
@@ -85,12 +105,22 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 3,
+      "skipped" : 4,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 3
+      "total" : 4
     },
     "items" : [ {
+      "uid" : "3e0abbe337dbaec3",
+      "reportUrl" : "https://shaikbikarsha.github.io/ui-automation/21//#testresult/3e0abbe337dbaec3",
+      "status" : "skipped",
+      "statusDetails" : "Could not start a new session. Response code 500. Message: unknown error: Chrome failed to start: crashed.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '4.1.1', revision: 'e8fcc2cecf'\nSystem info: host: 'fv-az182-150', ip: '10.1.1.117', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1022-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--start-maximized], extensions: []}}], desiredCapabilities=Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--start-maximized], extensions: []}}}]",
+      "time" : {
+        "start" : 1641505380796,
+        "stop" : 1641505380812,
+        "duration" : 16
+      }
+    }, {
       "uid" : "22f6c1ce37cabc8b",
       "reportUrl" : "https://shaikbikarsha.github.io/ui-automation/21//#testresult/22f6c1ce37cabc8b",
       "status" : "skipped",
@@ -146,13 +176,23 @@
   "bf012043a8d8af93986922f48239bec9" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "f7539932b63dd3bb",
+      "reportUrl" : "https://shaikbikarsha.github.io/ui-automation/21//#testresult/f7539932b63dd3bb",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <button id=\"submit\" type=\"button\" class=\"btn btn-primary\">...</button> is not clickable at point (572, 557). Other element would receive the click: <iframe id=\"google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0\" title=\"3rd party ad content\" name=\"google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0\" width=\"728\" height=\"90\" scrolling=\"no\" marginwidth=\"0\" marginheight=\"0\" frameborder=\"0\" role=\"region\" aria-label=\"Advertisement\" tabindex=\"0\" sandbox=\"allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation\" allow=\"attribution-reporting\" srcdoc=\"\" style=\"border: 0px; vertical-align: bottom;\" data-google-container-id=\"1\" data-load-complete=\"true\"></iframe>\n  (Session info: headless chrome=97.0.4692.71)\nBuild info: version: '4.1.1', revision: 'e8fcc2cecf'\nSystem info: host: 'fv-az182-150', ip: '10.1.1.117', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1022-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [a34459eeb2bc35c3d8181471f8384c24, clickElement {id=ec40ac43-7369-4039-b075-72b3097a6ff8}]\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /tmp/.com.google.Chrome.ZYAG6g}, goog:chromeOptions: {debuggerAddress: localhost:38671}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:38671/devtoo..., se:cdpVersion: 97.0.4692.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on LINUX (a34459eeb2bc35c3d8181471f8384c24)] -> css selector: #submit]\nSession ID: a34459eeb2bc35c3d8181471f8384c24",
+      "time" : {
+        "start" : 1641505450036,
+        "stop" : 1641505456768,
+        "duration" : 6732
+      }
+    }, {
       "uid" : "401114863d19792c",
       "reportUrl" : "https://shaikbikarsha.github.io/ui-automation/21//#testresult/401114863d19792c",
       "status" : "broken",
