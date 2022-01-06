@@ -62,10 +62,4 @@ public class ConfigPropertyReader {
     public int getRetryCount() {
         return Integer.parseInt(retryCount);
     }
-
-    public String getUrl() {
-        return url;
-    }
-
-
 }
