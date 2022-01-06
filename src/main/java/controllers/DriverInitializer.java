@@ -24,7 +24,7 @@ public class DriverInitializer extends BrowserInitializer {
 
     @BeforeMethod(alwaysRun = true)
     public void beforeMethod() {
-        driver = this.createDriver();
+        driver = DriverInitializer.createDriver();
         setWebDriver(driver);
 
         if (videoFeature.toLowerCase().contains("enabledfailed")) {
