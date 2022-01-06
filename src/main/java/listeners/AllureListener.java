@@ -48,6 +48,7 @@ public class AllureListener extends BaseController implements ITestListener, ISu
         String Name = result.getTestClass().getName() + "." + result.getMethod().getMethodName();
         Reporter.log("\nFAILED TEST: " + result.getTestClass().getName() + "." + result.getMethod().getMethodName() + "\n", true);
         AllureAttachments.saveFullPageScreenshot(Name, getWebDriver());
+        //AllureAttachments.saveScreenshot(result.getName(), getWebDriver());
     }
 
 
@@ -88,5 +89,4 @@ public class AllureListener extends BaseController implements ITestListener, ISu
     @Override
     public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
     }
-
 }
