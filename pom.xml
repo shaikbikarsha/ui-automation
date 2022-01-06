@@ -79,7 +79,7 @@
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
             <version>${testng.version}</version>
-            <scope>compile, test</scope>
+            <!-- <scope>compile, test</scope> -->
         </dependency>
 
         <!-- Allure Java Properties Dependancy -->
