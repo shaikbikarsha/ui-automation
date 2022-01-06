@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ToolsQA">
+    <test name="TextBox" >
+        <parameter name="userName" value="bik"/>
+        <parameter name="userEmail" value="mfg@gmail.com"/>
+        <parameter name="currentAddress" value="currentAddress1"/>
+        <parameter name="permanentAddress" value="permanentAddress1"/>
+
+        <classes>
+            <class name="tests.toolsqa.elements.TextBoxTest"/>
+        </classes>
+    </test>
+</suite>
