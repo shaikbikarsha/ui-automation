@@ -15,7 +15,7 @@ public class CustomDataProvider extends ValueAssigner {
 
     @DataProvider(name = "customDataProvider")
     public static Object[][] fileNameAsClassName(Class cls, Method method) throws Exception {
-        File folder = new File(System.getProperty("user.dir")+"/src/test/java/tests");
+        File folder = new File(System.getProperty("user.dir")+"/src/test/java/tests/toolsqa");
         String yamlFile = listFilesForFolder(folder, cls.getSimpleName()+".java");
         InputStream inputStream = new FileInputStream(String.valueOf(yamlFile));
         Map<String, Object> yamlMap = yaml.load(inputStream);
@@ -39,7 +39,7 @@ public class CustomDataProvider extends ValueAssigner {
 
     public static List<Map<String, String>> getObjects(Class cls, String objectName) throws Exception {
 
-        File folder = new File(System.getProperty("user.dir")+"/src/test/java/tests");
+        File folder = new File(System.getProperty("user.dir")+"/src/test/java/tests/toolsqa");
         String yamlFile = listFilesForFolder(folder, cls.getSimpleName()+".java");
         InputStream inputStream = new FileInputStream(String.valueOf(yamlFile));
         Map<String, Object> yamlMap = yaml.load(inputStream);
@@ -66,10 +66,10 @@ public class CustomDataProvider extends ValueAssigner {
                     listOfYamlFiles = listOfYamlFiles + (new File((fileEntry.getAbsolutePath().contains("/java/tests/") ?
                             fileEntry.getAbsolutePath().replace("/java/tests/", "/resources/testData/") :
                             fileEntry.getAbsolutePath().replace("\\java\\tests\\", "\\resources\\testData\\")).replace(".java", ".yml")));
-                    }
                 }
-            continue;
             }
+            continue;
+        }
         return listOfYamlFiles;
     }
 }
