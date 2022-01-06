@@ -15,8 +15,8 @@ public class TextBoxTest extends CommonPageInitializer {
     //@Parameters({ "userName", "userEmail", "currentAddress", "permanentAddress" })
     @Severity(SeverityLevel.CRITICAL)
     @Test(
-            dataProvider = "customDataProvider",
-            dataProviderClass = CustomDataProvider.class,
+            //dataProvider = "customDataProvider",
+            //dataProviderClass = CustomDataProvider.class,
             attributes = {@CustomAttribute(name = "scriptDetails", values = {"TeamName", "ToolsQAProduct", "Smoke", "Critical"})},
             description = "Validate the behaviour of different combinations of text box details",
             groups = {"sanity", "smoke"})
