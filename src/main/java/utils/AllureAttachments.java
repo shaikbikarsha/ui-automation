@@ -2,6 +2,8 @@ package utils;
 
 import com.assertthat.selenium_shutterbug.core.Shutterbug;
 import io.qameta.allure.Attachment;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import ru.yandex.qatools.ashot.AShot;
@@ -16,6 +18,12 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 
 public class AllureAttachments {
+
+    @Attachment(value = "Screenshot of {0}", type = "image/png")
+    public static byte[] saveScreenshot(String name, WebDriver driver) {
+        return (byte[]) ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
+    }
+
     /**
      * To Attach the Entire Page Screenshot
      */
