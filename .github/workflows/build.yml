@@ -44,7 +44,7 @@ jobs:
       with:
         step: restore
     - name: Build with Maven
-      run: mvn install test -DclusterId="1" -Ddns="live" -Dbrowser="chrome_headless" -DtestngFile="testng.xml" -DtestngGroups="smoke" site:site --file pom.xml
+      run: mvn install test -Dbrowser="chrome_headless" -DtestngFile="testng.xml" -DtestngGroups="smoke" site:site --file pom.xml
     - name: Save Maven cache
       uses: skjolber/maven-cache-github-action@v1
       with:
