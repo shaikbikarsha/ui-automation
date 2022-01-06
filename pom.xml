@@ -35,11 +35,15 @@
         <java.version>16</java.version>
         <javafaker.version>1.0.2</javafaker.version>
         <lombok.version>1.18.22</lombok.version>
-        <selenium.version>4.0.0</selenium.version>
+        <selenium.version>4.1.1</selenium.version>
         <shutterbug.version>1.5</shutterbug.version>
         <testng.version>7.1.0</testng.version>
         <video-recorder-testng.version>1.4</video-recorder-testng.version>
         <webdrivermanager.version>5.0.3</webdrivermanager.version>
+        <snakeyaml.version>1.29</snakeyaml.version>
+        <json-simple.version>1.1.1</json-simple.version>
+        <ngwebdriver.version>1.1.6</ngwebdriver.version>
+        <log4j.version>2.17.0</log4j.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
@@ -76,7 +80,8 @@
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
-            <version>${testng.version}</version>            
+            <version>${testng.version}</version>
+            <scope>compile, test</scope>
         </dependency>
 
         <!-- Allure Java Properties Dependancy -->
@@ -153,22 +158,26 @@
         <dependency>
             <groupId>org.yaml</groupId>
             <artifactId>snakeyaml</artifactId>
-            <version>1.29</version>
+            <version>${snakeyaml.version}</version>
         </dependency>
 
         <dependency>
             <groupId>com.googlecode.json-simple</groupId>
             <artifactId>json-simple</artifactId>
-            <version>1.1.1</version>
+            <version>${json-simple.version}</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/com.paulhammant/ngwebdriver -->
         <dependency>
             <groupId>com.paulhammant</groupId>
             <artifactId>ngwebdriver</artifactId>
-            <version>1.1.6</version>
+            <version>${ngwebdriver.version}</version>
         </dependency>
 
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <version>${log4j.version}</version>
+        </dependency>
 
     </dependencies>
 
