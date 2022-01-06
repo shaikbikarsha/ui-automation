@@ -1,14 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="ToolsQA">
-    <test name="TextBox" >
-        <parameter name="userName" value="bik"/>
-        <parameter name="userEmail" value="mfg@gmail.com"/>
-        <parameter name="currentAddress" value="currentAddress1"/>
-        <parameter name="permanentAddress" value="permanentAddress1"/>
-
-        <classes>
-            <class name="tests.toolsqa.elements.TextBoxTest"/>
-        </classes>
-    </test>
-</suite>
+testToolsQAElementsTextBox:
+  dataset1:
+    userName: bik
+    userEmail: mfg@gmail.com
+    currentAddress: currentAddress1
+    permanentAddress: permanentAddress1
+  dataset2:
+    userName: aik
+    userEmail: abc@gmail.com
+    currentAddress: currentAddress2
+    permanentAddress: permanentAddress2
+  dataset3:
+    userName: rik
+    userEmail: cdh@gmail.com
+    currentAddress: currentAddress3
+    permanentAddress: permanentAddress3
+  dataset4:
+    userName: shik
+    userEmail: bcd@gmail.com
+    currentAddress: currentAddress4
+    permanentAddress: permanentAddress4
