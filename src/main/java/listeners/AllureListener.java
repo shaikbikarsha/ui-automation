@@ -89,4 +89,5 @@ public class AllureListener extends BaseController implements ITestListener, ISu
     @Override
     public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
     }
+
 }

@@ -2,6 +2,8 @@ package utils;
 
 import controllers.BaseController;
 import org.testng.annotations.Test;
+
+
 import java.io.File;
 import java.io.FileOutputStream;
 import java.net.InetAddress;
@@ -13,7 +15,7 @@ public class EnvironmentSetup extends BaseController {
     public static void environmentSetup() {
         try {
             Properties properties = new Properties();
-            properties.setProperty("Author", "Bikarsha Shaik");
+            properties.setProperty("Author", "Entrata");
             properties.setProperty("browser", browser);
             properties.setProperty("OS", osName);
             properties.setProperty("OS Version", osVersion);

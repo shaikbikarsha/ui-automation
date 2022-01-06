@@ -11,8 +11,6 @@
     <description>This is a Hybrid Automation Project</description>
 
     <properties>
-        <sonar.organization>shaikbikarsha</sonar.organization>
-        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
         <!-- Parameters which we pass as commandline arguments. -->
         <browser>chrome</browser>
         <testngFile>${basedir}/testng.xml</testngFile>
@@ -81,7 +79,7 @@
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
             <version>${testng.version}</version>
-            <!-- <scope>compile, test</scope> -->
+            <scope>compile, test</scope>
         </dependency>
 
         <!-- Allure Java Properties Dependancy -->

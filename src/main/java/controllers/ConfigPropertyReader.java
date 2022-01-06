@@ -1,14 +1,21 @@
 package controllers;
 
 import ru.qatools.properties.Property;
+import ru.qatools.properties.PropertyLoader;
 import ru.qatools.properties.Resource;
-
 
 @Resource.Classpath({"config.properties"})
 public class ConfigPropertyReader {
 
+    public ConfigPropertyReader() {
+        PropertyLoader.newInstance().populate(this);
+    }
+
     @Property(value = "browser")
     private String browser;
+
+    @Property(value = "url")
+    private String url;
 
     @Property(value = "maxPageLoadTime")
     private int maxPageLoadTime;
@@ -27,9 +34,6 @@ public class ConfigPropertyReader {
 
     @Property(value = "retryCount")
     private String retryCount;
-
-    @Property(value = "url")
-    private String url;
 
     public String getUrl() {
         return url;
@@ -62,4 +66,5 @@ public class ConfigPropertyReader {
     public int getRetryCount() {
         return Integer.parseInt(retryCount);
     }
+
 }

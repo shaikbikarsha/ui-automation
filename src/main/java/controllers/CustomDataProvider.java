@@ -33,12 +33,10 @@ public class CustomDataProvider extends ValueAssigner {
                 data[i][j]=list.get(i).values().toArray()[j].toString();
             }
         }
-
         return data;
     }
 
     public static List<Map<String, String>> getObjects(Class cls, String objectName) throws Exception {
-
         File folder = new File(System.getProperty("user.dir")+"/src/test/java/tests/toolsqa");
         String yamlFile = listFilesForFolder(folder, cls.getSimpleName()+".java");
         InputStream inputStream = new FileInputStream(String.valueOf(yamlFile));
@@ -50,11 +48,7 @@ public class CustomDataProvider extends ValueAssigner {
         testSets.forEach((key, collection) -> {
             list.add((Map<String, String>) testSets.get(key));
         });
-
-        System.out.println(list);
-
         return list;
-
     }
 
     public static String listFilesForFolder(File folder, String FineName) {

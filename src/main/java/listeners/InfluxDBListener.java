@@ -53,7 +53,7 @@ public class InfluxDBListener {
 
         Point point = Point.measurement("ui-automation").time(System.currentTimeMillis(), TimeUnit.MILLISECONDS)
                 .tag("TestClassName", iTestResult.getTestClass().getName())
-                .tag("BussinessUnit", productDetails.get(0)[0])
+                .tag("TeamName", productDetails.get(0)[0])
                 .tag("ProductName", productDetails.get(0)[1])
                 .tag("GroupName", productDetails.get(0)[2])
                 .tag("ExecutionStatus", status)
@@ -65,7 +65,7 @@ public class InfluxDBListener {
     }
 
     private void postTestClassStatus(ITestContext iTestContext) {
-        Point point = Point.measurement("web-scrapper-test-classes").time(System.currentTimeMillis(), TimeUnit.MILLISECONDS)
+        Point point = Point.measurement("ui-automation-classes").time(System.currentTimeMillis(), TimeUnit.MILLISECONDS)
                 .tag("name", iTestContext.getAllTestMethods()[0].getTestClass().getName())
                 .addField("duration", (iTestContext.getEndDate().getTime() - iTestContext.getStartDate().getTime()))
                 .build();

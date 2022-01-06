@@ -13,6 +13,7 @@ import org.testng.annotations.BeforeTest;
 
 public class DriverInitializer extends BrowserInitializer {
     public static ThreadLocal<WebDriver> wd = new ThreadLocal();
+    public static String url;
 
     @BeforeTest(alwaysRun = true)
     public void suiteSetup() {
@@ -24,9 +25,9 @@ public class DriverInitializer extends BrowserInitializer {
 
     @BeforeMethod(alwaysRun = true)
     public void beforeMethod() {
+        new DriverInitializer();
         driver = DriverInitializer.createDriver();
         setWebDriver(driver);
-
         if (videoFeature.toLowerCase().contains("enabledfailed")) {
             setupVideoRecordingFailedOnly();
         } else if (videoFeature.toLowerCase().contains("enabledall")) {

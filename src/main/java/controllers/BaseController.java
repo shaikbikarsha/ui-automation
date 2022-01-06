@@ -16,6 +16,7 @@ import java.awt.datatransfer.StringSelection;
 import java.awt.event.KeyEvent;
 import java.awt.image.BufferedImage;
 import java.io.File;
+import java.net.URL;
 import java.util.ArrayList;
 
 public class BaseController extends DriverInitializer
@@ -32,7 +33,6 @@ public class BaseController extends DriverInitializer
 			ngWebDriver.waitForAngularRequestsToFinish();
 		}
 	}
-
 
 	/* To get the Website Name */
 	public String getUrlTitle() {

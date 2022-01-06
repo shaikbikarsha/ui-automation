@@ -3,9 +3,12 @@ package controllers;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.ITestResult;
+import org.testng.asserts.SoftAssert;
 
 import java.awt.*;
 import java.io.File;
+import java.net.URI;
 
 public class ValueAssigner {
     public static ConfigPropertyReader appConfig = new ConfigPropertyReader();

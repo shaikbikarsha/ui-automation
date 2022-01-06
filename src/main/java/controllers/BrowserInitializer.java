@@ -23,7 +23,7 @@ public class BrowserInitializer extends ValueAssigner {
                 chromeOptions.setCapability("proxy", PROXY);
                 chromeOptions.addArguments("--test-type");
                 chromeOptions.addArguments("--disable-web-security");
-                chromeOptions.addArguments("--ignore-fetcher-cert-requests");
+                chromeOptions.addArguments("--ignore-urlfetcher-cert-requests");
                 chromeOptions.addArguments("--disable-renderer-backgrounding");
                 chromeOptions.addArguments("--disable-dev-shm-usage");
                 chromeOptions.addArguments("--user-data-dir=./chrome");
