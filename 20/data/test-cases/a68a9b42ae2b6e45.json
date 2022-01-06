@@ -1,0 +1,99 @@
+{
+  "uid" : "a68a9b42ae2b6e45",
+  "name" : "afterMethod",
+  "fullName" : "controllers.DriverInitializer.afterMethod",
+  "historyId" : "a33ea3084fd68fcf4d06849fc9b074c5",
+  "time" : {
+    "start" : 1641504185678,
+    "stop" : 1641504185679,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "statusMessage" : "Cannot invoke \"org.openqa.selenium.WebDriver.quit()\" because the return value of \"controllers.DriverInitializer.getWebDriver()\" is null",
+  "statusTrace" : "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebDriver.quit()\" because the return value of \"controllers.DriverInitializer.getWebDriver()\" is null\n\tat controllers.DriverInitializer.afterMethod(DriverInitializer.java:67)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)\n\tat org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)\n\tat org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)\n\tat org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)\n\tat org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:671)\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:543)\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:766)\n\tat org.testng.TestRunner.run(TestRunner.java:587)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:384)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:286)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)\n\tat java.base/java.lang.Thread.run(Thread.java:831)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "suiteSetup",
+    "time" : {
+      "start" : 1641504158821,
+      "stop" : 1641504160600,
+      "duration" : 1779
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.toolsqa.elements.TextBoxTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.toolsqa.elements.TextBoxTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "afterMethod"
+  }, {
+    "name" : "parentSuite",
+    "value" : "ToolsQA"
+  }, {
+    "name" : "suite",
+    "value" : "TextBox"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.toolsqa.elements.TextBoxTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az132-810"
+  }, {
+    "name" : "thread",
+    "value" : "2878@fv-az132-810.TestNG-suites-1(15)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "TestBox Tests"
+  }, {
+    "name" : "epic",
+    "value" : "Elements Tests"
+  }, {
+    "name" : "AS_ID",
+    "value" : "-1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "currentAddress",
+    "value" : "currentAddress1"
+  }, {
+    "name" : "permanentAddress",
+    "value" : "permanentAddress1"
+  }, {
+    "name" : "userEmail",
+    "value" : "mfg@gmail.com"
+  }, {
+    "name" : "userName",
+    "value" : "bik"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a68a9b42ae2b6e45.json",
+  "parameterValues" : [ "currentAddress1", "permanentAddress1", "mfg@gmail.com", "bik" ]
+}

@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Could not start a new session. Response code 500. Message: unknown error: Chrome failed to start: crashed.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '4.1.1', revision: 'e8fcc2cecf'\nSystem info: host: 'fv-az132-810', ip: '10.1.0.166', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1022-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--start-maximized], extensions: []}}], desiredCapabilities=Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--start-maximized], extensions: []}}}]",
+      "children" : [ {
+        "name" : "beforeMethod",
+        "uid" : "47bac70f90013ef4",
+        "parentUid" : "8bb4be7a092498eb5966d68067ab4fb8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1641504188581,
+          "stop" : 1641504188581,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "currentAddress1", "permanentAddress1", "mfg@gmail.com", "bik" ]
+      } ],
+      "uid" : "8bb4be7a092498eb5966d68067ab4fb8"
+    }, {
+      "name" : "Cannot invoke \"org.openqa.selenium.WebDriver.quit()\" because the return value of \"controllers.DriverInitializer.getWebDriver()\" is null",
+      "children" : [ {
+        "name" : "afterMethod",
+        "uid" : "26859789e7b6e502",
+        "parentUid" : "e86fd18896a17c7165b7db853e0f48b5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1641504190598,
+          "stop" : 1641504190598,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "currentAddress1", "permanentAddress1", "mfg@gmail.com", "bik" ]
+      } ],
+      "uid" : "e86fd18896a17c7165b7db853e0f48b5"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
