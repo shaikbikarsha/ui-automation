@@ -1,0 +1,82 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az275-504",
+    "children" : [ {
+      "name" : "2958@fv-az275-504.TestNG-suites-1(15)",
+      "children" : [ {
+        "name" : "beforeMethod",
+        "uid" : "a409b6755ca57fa",
+        "parentUid" : "24c1f4ae2421582cf21609acbb68efa6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1641576414456,
+          "stop" : 1641576414461,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "currentAddress1", "permanentAddress1", "mfg@gmail.com", "bik" ]
+      }, {
+        "name" : "afterMethod",
+        "uid" : "adfd57a98e57f09a",
+        "parentUid" : "24c1f4ae2421582cf21609acbb68efa6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1641576416547,
+          "stop" : 1641576416547,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "currentAddress1", "permanentAddress1", "mfg@gmail.com", "bik" ]
+      }, {
+        "name" : "Validate the behaviour of different combinations of text box details",
+        "uid" : "4c631d833fc0e040",
+        "parentUid" : "24c1f4ae2421582cf21609acbb68efa6",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1641576414492,
+          "stop" : 1641576414534,
+          "duration" : 42
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "currentAddress1", "permanentAddress1", "mfg@gmail.com", "bik" ]
+      } ],
+      "uid" : "24c1f4ae2421582cf21609acbb68efa6"
+    }, {
+      "name" : "3710@fv-az275-504.TestNG-suites-1(15)",
+      "children" : [ {
+        "name" : "Validate the behaviour of different combinations of text box details",
+        "uid" : "b0cd5e62ee8adb63",
+        "parentUid" : "9f794c55ca7efc313205550ee1c4b3bd",
+        "status" : "broken",
+        "time" : {
+          "start" : 1641576494397,
+          "stop" : 1641576499627,
+          "duration" : 5230
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "bikarsha", "bik@gmail.com", "currentAddress", "permanentAddress", "currentAddress1", "permanentAddress1", "mfg@gmail.com", "bik" ]
+      }, {
+        "name" : "Validate the behaviour of different combinations of text box details",
+        "uid" : "91171be36d3fc834",
+        "parentUid" : "9f794c55ca7efc313205550ee1c4b3bd",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1641576486845,
+          "stop" : 1641576492097,
+          "duration" : 5252
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "bikarsha", "bik@gmail.com", "currentAddress", "permanentAddress", "currentAddress1", "permanentAddress1", "mfg@gmail.com", "bik" ]
+      } ],
+      "uid" : "9f794c55ca7efc313205550ee1c4b3bd"
+    } ],
+    "uid" : "5c3e4fd276438f4667115f2f0eca4460"
+  } ],
+  "name" : "timeline"
+}

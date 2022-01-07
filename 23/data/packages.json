@@ -1,0 +1,61 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "tests.toolsqa.elements.TextBoxTest",
+    "children" : [ {
+      "name" : "beforeMethod",
+      "uid" : "a409b6755ca57fa",
+      "parentUid" : "8be3882e53e1cccba263f89e131bcba1",
+      "status" : "broken",
+      "time" : {
+        "start" : 1641576414456,
+        "stop" : 1641576414461,
+        "duration" : 5
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "currentAddress1", "permanentAddress1", "mfg@gmail.com", "bik" ]
+    }, {
+      "name" : "testToolsQAElementsTextBox",
+      "uid" : "4c631d833fc0e040",
+      "parentUid" : "8be3882e53e1cccba263f89e131bcba1",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1641576414492,
+        "stop" : 1641576414534,
+        "duration" : 42
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "currentAddress1", "permanentAddress1", "mfg@gmail.com", "bik" ]
+    }, {
+      "name" : "afterMethod",
+      "uid" : "adfd57a98e57f09a",
+      "parentUid" : "8be3882e53e1cccba263f89e131bcba1",
+      "status" : "broken",
+      "time" : {
+        "start" : 1641576416547,
+        "stop" : 1641576416547,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "currentAddress1", "permanentAddress1", "mfg@gmail.com", "bik" ]
+    }, {
+      "name" : "testToolsQAElementsTextBox",
+      "uid" : "b0cd5e62ee8adb63",
+      "parentUid" : "8be3882e53e1cccba263f89e131bcba1",
+      "status" : "broken",
+      "time" : {
+        "start" : 1641576494397,
+        "stop" : 1641576499627,
+        "duration" : 5230
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "bikarsha", "bik@gmail.com", "currentAddress", "permanentAddress", "currentAddress1", "permanentAddress1", "mfg@gmail.com", "bik" ]
+    } ],
+    "uid" : "tests.toolsqa.elements.TextBoxTest"
+  } ],
+  "name" : "packages"
+}

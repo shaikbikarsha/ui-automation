@@ -1,0 +1,65 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "Elements Tests",
+    "children" : [ {
+      "name" : "TestBox Tests",
+      "children" : [ {
+        "name" : "beforeMethod",
+        "uid" : "a409b6755ca57fa",
+        "parentUid" : "97fe126fc5e5f1b65eca875fc3738135",
+        "status" : "broken",
+        "time" : {
+          "start" : 1641576414456,
+          "stop" : 1641576414461,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "currentAddress1", "permanentAddress1", "mfg@gmail.com", "bik" ]
+      }, {
+        "name" : "Validate the behaviour of different combinations of text box details",
+        "uid" : "4c631d833fc0e040",
+        "parentUid" : "97fe126fc5e5f1b65eca875fc3738135",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1641576414492,
+          "stop" : 1641576414534,
+          "duration" : 42
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "currentAddress1", "permanentAddress1", "mfg@gmail.com", "bik" ]
+      }, {
+        "name" : "afterMethod",
+        "uid" : "adfd57a98e57f09a",
+        "parentUid" : "97fe126fc5e5f1b65eca875fc3738135",
+        "status" : "broken",
+        "time" : {
+          "start" : 1641576416547,
+          "stop" : 1641576416547,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "currentAddress1", "permanentAddress1", "mfg@gmail.com", "bik" ]
+      }, {
+        "name" : "Validate the behaviour of different combinations of text box details",
+        "uid" : "b0cd5e62ee8adb63",
+        "parentUid" : "97fe126fc5e5f1b65eca875fc3738135",
+        "status" : "broken",
+        "time" : {
+          "start" : 1641576494397,
+          "stop" : 1641576499627,
+          "duration" : 5230
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "bikarsha", "bik@gmail.com", "currentAddress", "permanentAddress", "currentAddress1", "permanentAddress1", "mfg@gmail.com", "bik" ]
+      } ],
+      "uid" : "97fe126fc5e5f1b65eca875fc3738135"
+    } ],
+    "uid" : "23a51c0b7007003406ee2c5eb413e64d"
+  } ],
+  "name" : "behaviors"
+}
