@@ -1,0 +1,69 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "ToolsQA",
+    "children" : [ {
+      "name" : "TextBox",
+      "children" : [ {
+        "name" : "tests.toolsqa.elements.TextBoxTest",
+        "children" : [ {
+          "name" : "beforeMethod",
+          "uid" : "7c6ad5a441277ff",
+          "parentUid" : "f3ac015522690cf189261e2b74815756",
+          "status" : "broken",
+          "time" : {
+            "start" : 1641579977660,
+            "stop" : 1641579977665,
+            "duration" : 5
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "currentAddress1", "permanentAddress1", "mfg@gmail.com", "bik" ]
+        }, {
+          "name" : "Validate the behaviour of different combinations of text box details",
+          "uid" : "a07805656c7360dd",
+          "parentUid" : "f3ac015522690cf189261e2b74815756",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1641579977727,
+            "stop" : 1641579977768,
+            "duration" : 41
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "currentAddress1", "permanentAddress1", "mfg@gmail.com", "bik" ]
+        }, {
+          "name" : "afterMethod",
+          "uid" : "6845c9e975e59353",
+          "parentUid" : "f3ac015522690cf189261e2b74815756",
+          "status" : "broken",
+          "time" : {
+            "start" : 1641579979789,
+            "stop" : 1641579979789,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "currentAddress1", "permanentAddress1", "mfg@gmail.com", "bik" ]
+        }, {
+          "name" : "Validate the behaviour of different combinations of text box details",
+          "uid" : "6962652c4c4ca524",
+          "parentUid" : "f3ac015522690cf189261e2b74815756",
+          "status" : "broken",
+          "time" : {
+            "start" : 1641580063071,
+            "stop" : 1641580068583,
+            "duration" : 5512
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "bikarsha", "bik@gmail.com", "currentAddress", "permanentAddress", "currentAddress1", "permanentAddress1", "mfg@gmail.com", "bik" ]
+        } ],
+        "uid" : "f3ac015522690cf189261e2b74815756"
+      } ],
+      "uid" : "43cb8e7110e1a729d16538bf7bab3304"
+    } ],
+    "uid" : "af4a5a1b4a26aa211e5e62a6af514c15"
+  } ],
+  "name" : "suites"
+}
