@@ -21,8 +21,8 @@
         <parallel>tests</parallel>
         <appType>js-app</appType> <!-- Either normal-app or js-app -->
 
-        <maven.compiler.source>16</maven.compiler.source>
-        <maven.compiler.target>16</maven.compiler.target>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
         <maven.compiler.plugin.version>3.8.1</maven.compiler.plugin.version>
         <maven.surefire.version>3.0.0-M5</maven.surefire.version>
 
@@ -32,7 +32,7 @@
         <aspectj.version>1.9.8.M1</aspectj.version>
         <commons-codec.version>1.15</commons-codec.version>
         <influxdb.version>2.22</influxdb.version>
-        <java.version>16</java.version>
+        <java.version>8</java.version>
         <javafaker.version>1.0.2</javafaker.version>
         <lombok.version>1.18.22</lombok.version>
         <selenium.version>4.1.1</selenium.version>
@@ -206,8 +206,10 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>${maven.compiler.plugin.version}</version>
                 <configuration>
-                    <release>16</release>
-                    
+                    <source>1.6</source>
+                    <target>1.6</target>
+                    <verbose>true</verbose>
+                    <fork>false</fork>                        
                 </configuration>
             </plugin>
 
