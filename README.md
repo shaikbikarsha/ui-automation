@@ -43,3 +43,4 @@ videoFolder=./target/Videos                     # Default option is ./target/Vid
 
 ### Visual reports
 - Allure
+- Sonar
