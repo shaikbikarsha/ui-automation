@@ -1,0 +1,41 @@
+[ {
+  "uid" : "a8d07b7d2787d9b9",
+  "name" : "Validate the behaviour of different combinations of text box details",
+  "time" : {
+    "start" : 1641530321703,
+    "stop" : 1641530328947,
+    "duration" : 7244
+  },
+  "status" : "broken",
+  "severity" : "critical"
+}, {
+  "uid" : "523b23f938a845e5",
+  "name" : "afterMethod",
+  "time" : {
+    "start" : 1641530246616,
+    "stop" : 1641530246624,
+    "duration" : 8
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "9da49a510dce965c",
+  "name" : "beforeMethod",
+  "time" : {
+    "start" : 1641530244534,
+    "stop" : 1641530244537,
+    "duration" : 3
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "af26b3809e0dedea",
+  "name" : "Validate the behaviour of different combinations of text box details",
+  "time" : {
+    "start" : 1641530244592,
+    "stop" : 1641530244603,
+    "duration" : 11
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+} ]

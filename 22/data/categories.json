@@ -1,0 +1,60 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Could not start a new session. Response code 500. Message: unknown error: Chrome failed to start: crashed.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '4.1.1', revision: 'e8fcc2cecf'\nSystem info: host: 'fv-az173-662', ip: '10.1.0.42', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1022-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--start-maximized], extensions: []}}], desiredCapabilities=Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--start-maximized], extensions: []}}}]",
+      "children" : [ {
+        "name" : "beforeMethod",
+        "uid" : "9da49a510dce965c",
+        "parentUid" : "c32173d61373f4ea7edf56706fb88948",
+        "status" : "broken",
+        "time" : {
+          "start" : 1641530244534,
+          "stop" : 1641530244537,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "currentAddress1", "permanentAddress1", "mfg@gmail.com", "bik" ]
+      } ],
+      "uid" : "c32173d61373f4ea7edf56706fb88948"
+    }, {
+      "name" : "Cannot invoke \"org.openqa.selenium.WebDriver.quit()\" because the return value of \"controllers.DriverInitializer.getWebDriver()\" is null",
+      "children" : [ {
+        "name" : "afterMethod",
+        "uid" : "523b23f938a845e5",
+        "parentUid" : "e86fd18896a17c7165b7db853e0f48b5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1641530246616,
+          "stop" : 1641530246624,
+          "duration" : 8
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "currentAddress1", "permanentAddress1", "mfg@gmail.com", "bik" ]
+      } ],
+      "uid" : "e86fd18896a17c7165b7db853e0f48b5"
+    }, {
+      "name" : "element click intercepted: Element <button id=\"submit\" type=\"button\" class=\"btn btn-primary\">...</button> is not clickable at point (572, 557). Other element would receive the click: <iframe id=\"google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0\" title=\"3rd party ad content\" name=\"google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0\" width=\"728\" height=\"90\" scrolling=\"no\" marginwidth=\"0\" marginheight=\"0\" frameborder=\"0\" role=\"region\" aria-label=\"Advertisement\" tabindex=\"0\" sandbox=\"allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation\" allow=\"attribution-reporting\" srcdoc=\"\" style=\"border: 0px; vertical-align: bottom;\" data-google-container-id=\"1\" data-load-complete=\"true\"></iframe>\n  (Session info: headless chrome=97.0.4692.71)\nBuild info: version: '4.1.1', revision: 'e8fcc2cecf'\nSystem info: host: 'fv-az173-662', ip: '10.1.0.42', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1022-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [518bd9e995df6d48c684200961547f9c, clickElement {id=77b6eac5-51c2-49d0-b3e2-ea5933c136a9}]\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /tmp/.com.google.Chrome.2Yn8gU}, goog:chromeOptions: {debuggerAddress: localhost:33891}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:33891/devtoo..., se:cdpVersion: 97.0.4692.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on LINUX (518bd9e995df6d48c684200961547f9c)] -> css selector: #submit]\nSession ID: 518bd9e995df6d48c684200961547f9c",
+      "children" : [ {
+        "name" : "Validate the behaviour of different combinations of text box details",
+        "uid" : "a8d07b7d2787d9b9",
+        "parentUid" : "3e59bae2e9eeb44597f54e0ac929014b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1641530321703,
+          "stop" : 1641530328947,
+          "duration" : 7244
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "bikarsha", "bik@gmail.com", "currentAddress", "permanentAddress", "currentAddress1", "permanentAddress1", "mfg@gmail.com", "bik" ]
+      } ],
+      "uid" : "3e59bae2e9eeb44597f54e0ac929014b"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

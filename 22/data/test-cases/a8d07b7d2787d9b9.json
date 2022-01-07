@@ -1,0 +1,386 @@
+{
+  "uid" : "a8d07b7d2787d9b9",
+  "name" : "Validate the behaviour of different combinations of text box details",
+  "fullName" : "tests.toolsqa.elements.TextBoxTest.testToolsQAElementsTextBox",
+  "historyId" : "bf012043a8d8af93986922f48239bec9",
+  "time" : {
+    "start" : 1641530321703,
+    "stop" : 1641530328947,
+    "duration" : 7244
+  },
+  "description" : "Test Description: Login test with different combinations of username and password",
+  "descriptionHtml" : "<p>Test Description: Login test with different combinations of username and password</p>\n",
+  "status" : "broken",
+  "statusMessage" : "element click intercepted: Element <button id=\"submit\" type=\"button\" class=\"btn btn-primary\">...</button> is not clickable at point (572, 557). Other element would receive the click: <iframe id=\"google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0\" title=\"3rd party ad content\" name=\"google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0\" width=\"728\" height=\"90\" scrolling=\"no\" marginwidth=\"0\" marginheight=\"0\" frameborder=\"0\" role=\"region\" aria-label=\"Advertisement\" tabindex=\"0\" sandbox=\"allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation\" allow=\"attribution-reporting\" srcdoc=\"\" style=\"border: 0px; vertical-align: bottom;\" data-google-container-id=\"1\" data-load-complete=\"true\"></iframe>\n  (Session info: headless chrome=97.0.4692.71)\nBuild info: version: '4.1.1', revision: 'e8fcc2cecf'\nSystem info: host: 'fv-az173-662', ip: '10.1.0.42', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1022-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [518bd9e995df6d48c684200961547f9c, clickElement {id=77b6eac5-51c2-49d0-b3e2-ea5933c136a9}]\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /tmp/.com.google.Chrome.2Yn8gU}, goog:chromeOptions: {debuggerAddress: localhost:33891}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:33891/devtoo..., se:cdpVersion: 97.0.4692.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on LINUX (518bd9e995df6d48c684200961547f9c)] -> css selector: #submit]\nSession ID: 518bd9e995df6d48c684200961547f9c",
+  "statusTrace" : "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button id=\"submit\" type=\"button\" class=\"btn btn-primary\">...</button> is not clickable at point (572, 557). Other element would receive the click: <iframe id=\"google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0\" title=\"3rd party ad content\" name=\"google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0\" width=\"728\" height=\"90\" scrolling=\"no\" marginwidth=\"0\" marginheight=\"0\" frameborder=\"0\" role=\"region\" aria-label=\"Advertisement\" tabindex=\"0\" sandbox=\"allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation\" allow=\"attribution-reporting\" srcdoc=\"\" style=\"border: 0px; vertical-align: bottom;\" data-google-container-id=\"1\" data-load-complete=\"true\"></iframe>\n  (Session info: headless chrome=97.0.4692.71)\nBuild info: version: '4.1.1', revision: 'e8fcc2cecf'\nSystem info: host: 'fv-az173-662', ip: '10.1.0.42', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1022-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [518bd9e995df6d48c684200961547f9c, clickElement {id=77b6eac5-51c2-49d0-b3e2-ea5933c136a9}]\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /tmp/.com.google.Chrome.2Yn8gU}, goog:chromeOptions: {debuggerAddress: localhost:33891}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:33891/devtoo..., se:cdpVersion: 97.0.4692.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on LINUX (518bd9e995df6d48c684200961547f9c)] -> css selector: #submit]\nSession ID: 518bd9e995df6d48c684200961547f9c\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)\n\tat jdk.proxy2/jdk.proxy2.$Proxy32.click(Unknown Source)\n\tat pageObjects.pages.toolsqa.elements.TextBoxPage.clickOnSubmitButton(TextBoxPage.java:81)\n\tat tests.toolsqa.elements.TextBoxTest.testToolsQAElementsTextBox(TextBoxTest.java:36)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)\n\tat org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:766)\n\tat org.testng.TestRunner.run(TestRunner.java:587)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:384)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:286)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)\n\tat java.base/java.lang.Thread.run(Thread.java:831)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1641530321443,
+      "stop" : 1641530321697,
+      "duration" : 254
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "suiteSetup",
+    "time" : {
+      "start" : 1641530311231,
+      "stop" : 1641530311548,
+      "duration" : 317
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Test Description: Login test with different combinations of username and password",
+    "status" : "broken",
+    "statusMessage" : "element click intercepted: Element <button id=\"submit\" type=\"button\" class=\"btn btn-primary\">...</button> is not clickable at point (572, 557). Other element would receive the click: <iframe id=\"google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0\" title=\"3rd party ad content\" name=\"google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0\" width=\"728\" height=\"90\" scrolling=\"no\" marginwidth=\"0\" marginheight=\"0\" frameborder=\"0\" role=\"region\" aria-label=\"Advertisement\" tabindex=\"0\" sandbox=\"allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation\" allow=\"attribution-reporting\" srcdoc=\"\" style=\"border: 0px; vertical-align: bottom;\" data-google-container-id=\"1\" data-load-complete=\"true\"></iframe>\n  (Session info: headless chrome=97.0.4692.71)\nBuild info: version: '4.1.1', revision: 'e8fcc2cecf'\nSystem info: host: 'fv-az173-662', ip: '10.1.0.42', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1022-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [518bd9e995df6d48c684200961547f9c, clickElement {id=77b6eac5-51c2-49d0-b3e2-ea5933c136a9}]\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /tmp/.com.google.Chrome.2Yn8gU}, goog:chromeOptions: {debuggerAddress: localhost:33891}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:33891/devtoo..., se:cdpVersion: 97.0.4692.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on LINUX (518bd9e995df6d48c684200961547f9c)] -> css selector: #submit]\nSession ID: 518bd9e995df6d48c684200961547f9c",
+    "statusTrace" : "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button id=\"submit\" type=\"button\" class=\"btn btn-primary\">...</button> is not clickable at point (572, 557). Other element would receive the click: <iframe id=\"google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0\" title=\"3rd party ad content\" name=\"google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0\" width=\"728\" height=\"90\" scrolling=\"no\" marginwidth=\"0\" marginheight=\"0\" frameborder=\"0\" role=\"region\" aria-label=\"Advertisement\" tabindex=\"0\" sandbox=\"allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation\" allow=\"attribution-reporting\" srcdoc=\"\" style=\"border: 0px; vertical-align: bottom;\" data-google-container-id=\"1\" data-load-complete=\"true\"></iframe>\n  (Session info: headless chrome=97.0.4692.71)\nBuild info: version: '4.1.1', revision: 'e8fcc2cecf'\nSystem info: host: 'fv-az173-662', ip: '10.1.0.42', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1022-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [518bd9e995df6d48c684200961547f9c, clickElement {id=77b6eac5-51c2-49d0-b3e2-ea5933c136a9}]\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /tmp/.com.google.Chrome.2Yn8gU}, goog:chromeOptions: {debuggerAddress: localhost:33891}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:33891/devtoo..., se:cdpVersion: 97.0.4692.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on LINUX (518bd9e995df6d48c684200961547f9c)] -> css selector: #submit]\nSession ID: 518bd9e995df6d48c684200961547f9c\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)\n\tat jdk.proxy2/jdk.proxy2.$Proxy32.click(Unknown Source)\n\tat pageObjects.pages.toolsqa.elements.TextBoxPage.clickOnSubmitButton(TextBoxPage.java:81)\n\tat tests.toolsqa.elements.TextBoxTest.testToolsQAElementsTextBox(TextBoxTest.java:36)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)\n\tat org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:766)\n\tat org.testng.TestRunner.run(TestRunner.java:587)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:384)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:286)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)\n\tat java.base/java.lang.Thread.run(Thread.java:831)\n",
+    "steps" : [ {
+      "name" : "Open Tools QA Landing Page",
+      "time" : {
+        "start" : 1641530321724,
+        "stop" : 1641530323797,
+        "duration" : 2073
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Verify the Page Title of the ToolsQA Landing Page",
+      "time" : {
+        "start" : 1641530323797,
+        "stop" : 1641530323802,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Open Tools QA Landing Page",
+      "time" : {
+        "start" : 1641530323803,
+        "stop" : 1641530324228,
+        "duration" : 425
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Click on elements link for method: {0}.",
+      "time" : {
+        "start" : 1641530324228,
+        "stop" : 1641530324702,
+        "duration" : 474
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c04eb654c59dadf4",
+        "name" : "Attachment of WebElement ChromeDriver: chrome on LINUX (518bd9e995df6d48c684200961547f9c)",
+        "source" : "c04eb654c59dadf4.png",
+        "type" : "image/png",
+        "size" : 1421
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Click on text box link for method: {0}.",
+      "time" : {
+        "start" : 1641530324702,
+        "stop" : 1641530325068,
+        "duration" : 366
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c0f427ba873c9e62",
+        "name" : "Attachment of WebElement ChromeDriver: chrome on LINUX (518bd9e995df6d48c684200961547f9c)",
+        "source" : "c0f427ba873c9e62.png",
+        "type" : "image/png",
+        "size" : 1008
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Enter full name: bikarsha for method: setFormFullName step.",
+      "time" : {
+        "start" : 1641530325068,
+        "stop" : 1641530325146,
+        "duration" : 78
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "fullName",
+        "value" : "bikarsha"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Enter email : bik@gmail.com for method: setFormEmailId step.",
+      "time" : {
+        "start" : 1641530325146,
+        "stop" : 1641530325219,
+        "duration" : 73
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "emailId",
+        "value" : "bik@gmail.com"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Enter current address : currentAddress for method: setFormCurrentAddress step.",
+      "time" : {
+        "start" : 1641530325219,
+        "stop" : 1641530325293,
+        "duration" : 74
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "currentAddress",
+        "value" : "currentAddress"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Enter permanent address : permanentAddress for method: setFormPermanentAddress step.",
+      "time" : {
+        "start" : 1641530325293,
+        "stop" : 1641530325368,
+        "duration" : 75
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "permanentAddress",
+        "value" : "permanentAddress"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Click on submit button for method: clickOnSubmitButton step.",
+      "time" : {
+        "start" : 1641530325369,
+        "stop" : 1641530326485,
+        "duration" : 1116
+      },
+      "status" : "broken",
+      "statusMessage" : "element click intercepted: Element <button id=\"submit\" type=\"button\" class=\"btn btn-primary\">...</button> is not clickable at point (572, 557). Other element would receive the click: <iframe id=\"google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0\" title=\"3rd party ad content\" name=\"google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0\" width=\"728\" height=\"90\" scrolling=\"no\" marginwidth=\"0\" marginheight=\"0\" frameborder=\"0\" role=\"region\" aria-label=\"Advertisement\" tabindex=\"0\" sandbox=\"allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation\" allow=\"attribution-reporting\" srcdoc=\"\" style=\"border: 0px; vertical-align: bottom;\" data-google-container-id=\"1\" data-load-complete=\"true\"></iframe>\n  (Session info: headless chrome=97.0.4692.71)\nBuild info: version: '4.1.1', revision: 'e8fcc2cecf'\nSystem info: host: 'fv-az173-662', ip: '10.1.0.42', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1022-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [518bd9e995df6d48c684200961547f9c, clickElement {id=77b6eac5-51c2-49d0-b3e2-ea5933c136a9}]\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /tmp/.com.google.Chrome.2Yn8gU}, goog:chromeOptions: {debuggerAddress: localhost:33891}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:33891/devtoo..., se:cdpVersion: 97.0.4692.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on LINUX (518bd9e995df6d48c684200961547f9c)] -> css selector: #submit]\nSession ID: 518bd9e995df6d48c684200961547f9c",
+      "statusTrace" : "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button id=\"submit\" type=\"button\" class=\"btn btn-primary\">...</button> is not clickable at point (572, 557). Other element would receive the click: <iframe id=\"google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0\" title=\"3rd party ad content\" name=\"google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0\" width=\"728\" height=\"90\" scrolling=\"no\" marginwidth=\"0\" marginheight=\"0\" frameborder=\"0\" role=\"region\" aria-label=\"Advertisement\" tabindex=\"0\" sandbox=\"allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation\" allow=\"attribution-reporting\" srcdoc=\"\" style=\"border: 0px; vertical-align: bottom;\" data-google-container-id=\"1\" data-load-complete=\"true\"></iframe>\n  (Session info: headless chrome=97.0.4692.71)\nBuild info: version: '4.1.1', revision: 'e8fcc2cecf'\nSystem info: host: 'fv-az173-662', ip: '10.1.0.42', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1022-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [518bd9e995df6d48c684200961547f9c, clickElement {id=77b6eac5-51c2-49d0-b3e2-ea5933c136a9}]\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /tmp/.com.google.Chrome.2Yn8gU}, goog:chromeOptions: {debuggerAddress: localhost:33891}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:33891/devtoo..., se:cdpVersion: 97.0.4692.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on LINUX (518bd9e995df6d48c684200961547f9c)] -> css selector: #submit]\nSession ID: 518bd9e995df6d48c684200961547f9c\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)\n\tat jdk.proxy2/jdk.proxy2.$Proxy32.click(Unknown Source)\n\tat pageObjects.pages.toolsqa.elements.TextBoxPage.clickOnSubmitButton(TextBoxPage.java:81)\n\tat tests.toolsqa.elements.TextBoxTest.testToolsQAElementsTextBox(TextBoxTest.java:36)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)\n\tat org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:766)\n\tat org.testng.TestRunner.run(TestRunner.java:587)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:384)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:286)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)\n\tat java.base/java.lang.Thread.run(Thread.java:831)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "70f923925b913310",
+      "name" : "Entire Page Screenshot of tests.toolsqa.elements.TextBoxTest.testToolsQAElementsTextBox",
+      "source" : "70f923925b913310.png",
+      "type" : "image/png",
+      "size" : 145806
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 10,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1641530328978,
+      "stop" : 1641530331087,
+      "duration" : 2109
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.toolsqa.elements.TextBoxTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.toolsqa.elements.TextBoxTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testToolsQAElementsTextBox"
+  }, {
+    "name" : "parentSuite",
+    "value" : "ToolsQA"
+  }, {
+    "name" : "suite",
+    "value" : "TextBox"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.toolsqa.elements.TextBoxTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az173-662"
+  }, {
+    "name" : "thread",
+    "value" : "3724@fv-az173-662.TestNG-suites-1(15)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "TestBox Tests"
+  }, {
+    "name" : "epic",
+    "value" : "Elements Tests"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "bikarsha"
+  }, {
+    "name" : "arg1",
+    "value" : "bik@gmail.com"
+  }, {
+    "name" : "arg2",
+    "value" : "currentAddress"
+  }, {
+    "name" : "arg3",
+    "value" : "permanentAddress"
+  }, {
+    "name" : "currentAddress",
+    "value" : "currentAddress1"
+  }, {
+    "name" : "permanentAddress",
+    "value" : "permanentAddress1"
+  }, {
+    "name" : "userEmail",
+    "value" : "mfg@gmail.com"
+  }, {
+    "name" : "userName",
+    "value" : "bik"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ {
+      "uid" : "6338455635d21702",
+      "status" : "skipped",
+      "statusDetails" : "element click intercepted: Element <button id=\"submit\" type=\"button\" class=\"btn btn-primary\">...</button> is not clickable at point (572, 557). Other element would receive the click: <iframe id=\"google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0\" title=\"3rd party ad content\" name=\"google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0\" width=\"728\" height=\"90\" scrolling=\"no\" marginwidth=\"0\" marginheight=\"0\" frameborder=\"0\" role=\"region\" aria-label=\"Advertisement\" tabindex=\"0\" sandbox=\"allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation\" allow=\"attribution-reporting\" srcdoc=\"\" style=\"border: 0px; vertical-align: bottom;\" data-google-container-id=\"1\" data-load-complete=\"true\"></iframe>\n  (Session info: headless chrome=97.0.4692.71)\nBuild info: version: '4.1.1', revision: 'e8fcc2cecf'\nSystem info: host: 'fv-az173-662', ip: '10.1.0.42', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1022-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [a3bb99c558b6da2edcb6517c96526c3d, clickElement {id=ba3ccb79-931c-457c-92a4-5ad88825fe9f}]\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /tmp/.com.google.Chrome.GxR4Mh}, goog:chromeOptions: {debuggerAddress: localhost:37607}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:37607/devtoo..., se:cdpVersion: 97.0.4692.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on LINUX (a3bb99c558b6da2edcb6517c96526c3d)] -> css selector: #submit]\nSession ID: a3bb99c558b6da2edcb6517c96526c3d",
+      "time" : {
+        "start" : 1641530314128,
+        "stop" : 1641530319309,
+        "duration" : 5181
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 3,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "f7539932b63dd3bb",
+        "reportUrl" : "https://shaikbikarsha.github.io/ui-automation/21//#testresult/f7539932b63dd3bb",
+        "status" : "broken",
+        "statusDetails" : "element click intercepted: Element <button id=\"submit\" type=\"button\" class=\"btn btn-primary\">...</button> is not clickable at point (572, 557). Other element would receive the click: <iframe id=\"google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0\" title=\"3rd party ad content\" name=\"google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0\" width=\"728\" height=\"90\" scrolling=\"no\" marginwidth=\"0\" marginheight=\"0\" frameborder=\"0\" role=\"region\" aria-label=\"Advertisement\" tabindex=\"0\" sandbox=\"allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation\" allow=\"attribution-reporting\" srcdoc=\"\" style=\"border: 0px; vertical-align: bottom;\" data-google-container-id=\"1\" data-load-complete=\"true\"></iframe>\n  (Session info: headless chrome=97.0.4692.71)\nBuild info: version: '4.1.1', revision: 'e8fcc2cecf'\nSystem info: host: 'fv-az182-150', ip: '10.1.1.117', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1022-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [a34459eeb2bc35c3d8181471f8384c24, clickElement {id=ec40ac43-7369-4039-b075-72b3097a6ff8}]\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /tmp/.com.google.Chrome.ZYAG6g}, goog:chromeOptions: {debuggerAddress: localhost:38671}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:38671/devtoo..., se:cdpVersion: 97.0.4692.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on LINUX (a34459eeb2bc35c3d8181471f8384c24)] -> css selector: #submit]\nSession ID: a34459eeb2bc35c3d8181471f8384c24",
+        "time" : {
+          "start" : 1641505450036,
+          "stop" : 1641505456768,
+          "duration" : 6732
+        }
+      }, {
+        "uid" : "401114863d19792c",
+        "reportUrl" : "https://shaikbikarsha.github.io/ui-automation/21//#testresult/401114863d19792c",
+        "status" : "broken",
+        "statusDetails" : "element click intercepted: Element <button id=\"submit\" type=\"button\" class=\"btn btn-primary\">...</button> is not clickable at point (572, 557). Other element would receive the click: <iframe id=\"google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0\" title=\"3rd party ad content\" name=\"google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0\" width=\"728\" height=\"90\" scrolling=\"no\" marginwidth=\"0\" marginheight=\"0\" frameborder=\"0\" role=\"region\" aria-label=\"Advertisement\" tabindex=\"0\" sandbox=\"allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation\" allow=\"attribution-reporting\" srcdoc=\"\" data-google-container-id=\"1\" style=\"border: 0px; vertical-align: bottom;\" data-load-complete=\"true\"></iframe>\n  (Session info: headless chrome=97.0.4692.71)\nBuild info: version: '4.1.1', revision: 'e8fcc2cecf'\nSystem info: host: 'fv-az275-504', ip: '10.1.1.148', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1022-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [86add4f3d24cda79f6d50b7b16484132, clickElement {id=912f9bff-82f6-4a52-b8b4-98d87a0ba262}]\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /tmp/.com.google.Chrome.5LaU5j}, goog:chromeOptions: {debuggerAddress: localhost:32867}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:32867/devtoo..., se:cdpVersion: 97.0.4692.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on LINUX (86add4f3d24cda79f6d50b7b16484132)] -> css selector: #submit]\nSession ID: 86add4f3d24cda79f6d50b7b16484132",
+        "time" : {
+          "start" : 1641505078822,
+          "stop" : 1641505086831,
+          "duration" : 8009
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "a8d07b7d2787d9b9.json",
+  "parameterValues" : [ "bikarsha", "bik@gmail.com", "currentAddress", "permanentAddress", "currentAddress1", "permanentAddress1", "mfg@gmail.com", "bik" ]
+}
